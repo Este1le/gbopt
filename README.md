@@ -11,9 +11,9 @@ One example of the tabular datasets that can be used with the graph-based hyperp
 ## Citation
 ```
 @InProceedings{zhang-duh-nmthpo20,
-			   author={Zhang, Xuan and Duh, Kevin},
-			   title={Reproducible and Efficient Benchmarks for Hyperparameter Optimization of Neural Machine Translation Systems},
-			   booktitle={Transactions of the Association for Computational Linguistics},
-			   year={2020}
+	       author={Zhang, Xuan and Duh, Kevin},
+	       title={Reproducible and Efficient Benchmarks for Hyperparameter Optimization of Neural Machine Translation Systems},
+	       booktitle={Transactions of the Association for Computational Linguistics},
+	       year={2020}
 }
 ```
