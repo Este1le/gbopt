@@ -15,7 +15,7 @@ from gbopt.graph.graph import Graph
 
 import argparse
 
-parser = argparse.ArgumentParser(description='Graph Based Hyperparameter Optimization for Nasbench-101.')
+parser = argparse.ArgumentParser(description='Graph Based Optimization.')
 parser.add_argument('--label_prop_alg', default='hmn', type=str, nargs='?',
                     help="label propagation algorithm.")
 parser.add_argument('--acquisition_func', default='eif', type=str, nargs='?',
@@ -38,7 +38,7 @@ parser.add_argument('--num_threads', default=60, type=int, nargs='?',
                     help="Number of threads for parallel running.")
 parser.add_argument('--output_path', default="./", type=str, nargs='?',
                     help="Directory for output files.")
-parser.add_argument('--data_dir', type=str, nargs='?', help="Directory for data files.")
+parser.add_argument('--data_dir', default="./", type=str, nargs='?', help="Directory for data files.")
 args = parser.parse_args()
 
 
